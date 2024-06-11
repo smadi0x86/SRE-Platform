@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "FullAccess",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::735341528488:root"
+            },
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::smadi-cks-platform",
+                "arn:aws:s3:::smadi-cks-platform/*"
+            ]
+        }
+    ]
+}
+

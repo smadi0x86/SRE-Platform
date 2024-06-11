@@ -2,7 +2,7 @@ locals {
   questions_list = "https://github.com/ViktorUJ/cks/blob/master/tasks/cks/mock/01/README.MD"
   solutions_scripts="https://github.com/ViktorUJ/cks/tree/master/tasks/cks/mock/01/worker/files/solutions"
   solutions_video="https://youtu.be/I8CPwcGbrG8"
-  debug_output   = "false"
+  debug_output   = "true"
   region         = "eu-north-1"
   vpc_default_cidr = "10.2.0.0/16"
   az_ids = {
@@ -19,7 +19,7 @@ locals {
     "owner"           = "viktoruj@gmail.com"
   }
   k8_version           = "1.30.0"
-  node_type            = "spot"
+  node_type            = "on-demand" # spot | on-demand
   runtime              = "containerd" # docker  , cri-o  , containerd ( need test it )
   instance_type        = "t4g.medium"
   instance_type_worker = "t4g.small"
