@@ -7,23 +7,23 @@
 
 | Task   | Description                                                                      | Solution                                     |
 | ------ | -------------------------------------------------------------------------------- | -------------------------------------------- |
-| **01** | [kubectl contexts](../tasks/cks/labs/01/README.md)                               | [SOLUTION](../tasks/cks/labs/01/SOLUTION.md) |
-| **02** | [Falco, sysdig](../tasks/cks/labs/02/README.md)                                  | [SOLUTION](../tasks/cks/labs/02/SOLUTION.md) |
-| **03** | [Kube-api: Disable access via NodePort](../tasks/cks/labs/03/README.md)          | [SOLUTION](../tasks/cks/labs/03/SOLUTION.md) |
-| **04** | [Pod Security Standard](../tasks/cks/labs/04/README.md)                          | [SOLUTION](../tasks/cks/labs/04/SOLUTION.md) |
-| **05** | [CIS Benchmark](../tasks/cks/labs/05/README.md)                                  | [SOLUTION](../tasks/cks/labs/05/SOLUTION.md) |
-| **07** | [Open Policy Agent - Blacklist Images](../tasks/cks/labs/07/README.md)           | [SOLUTION](../tasks/cks/labs/07/SOLUTION.md) |
-| **09** | [AppArmor](../tasks/cks/labs/09/README.md)                                       | [SOLUTION](../tasks/cks/labs/09/SOLUTION.md) |
-| **10** | [Container Runtime Sandbox gVisor](../tasks/cks/labs/10/README.md)               | [SOLUTION](../tasks/cks/labs/10/SOLUTION.md) |
-| **11** | [Read Secret content from ETCD](../tasks/cks/labs/11/README.md)                  | [SOLUTION](../tasks/cks/labs/11/SOLUTION.md) |
-| **17** | [Enable audit log](../tasks/cks/labs/17/README.md)                               | [SOLUTION](../tasks/cks/labs/17/SOLUTION.md) |
-| **19** | [Fix Dockerfile](../tasks/cks/labs/19/README.md)                                 | [SOLUTION](../tasks/cks/labs/19/SOLUTION.md) |
-| **20** | [Update Kubernetes cluster](../tasks/cks/labs/20/README.md)                      | [SOLUTION](../tasks/cks/labs/20/SOLUTION.md) |
-| **21** | [Image Vulnerability Scanning](../tasks/cks/labs/21/README.md)                   | [SOLUTION](../tasks/cks/labs/21/SOLUTION.md) |
-| **22** | [Network policy](../tasks/cks/labs/22/README.md)                                 | [SOLUTION](../tasks/cks/labs/22/SOLUTION.md) |
-| **23** | [Set TLS version and ciphers for etcd, kube-api](../tasks/cks/labs/23/README.md) | [SOLUTION](../tasks/cks/labs/23/SOLUTION.md) |
-| **24** | [Encrypt secrets in ETCD](../tasks/cks/labs/24/README.md)                        | [SOLUTION](../tasks/cks/labs/24/SOLUTION.md) |
-| **25** | [Image policy webhook](../tasks/cks/labs/25/README.md)                           | [SOLUTION](../tasks/cks/labs/25/SOLUTION.md) |
+| **01** | [kubectl contexts](../tasks/cks/labs/01/README.md)                               | [SOLUTION](../tasks/cks/labs/01/SOLUTION.MD) |
+| **02** | [Falco, sysdig](../tasks/cks/labs/02/README.md)                                  | [SOLUTION](../tasks/cks/labs/02/SOLUTION.MD) |
+| **03** | [Kube-api: Disable access via NodePort](../tasks/cks/labs/03/README.md)          | [SOLUTION](../tasks/cks/labs/03/SOLUTION.MD) |
+| **04** | [Pod Security Standard](../tasks/cks/labs/04/README.md)                          | [SOLUTION](../tasks/cks/labs/04/SOLUTION.MD) |
+| **05** | [CIS Benchmark](../tasks/cks/labs/05/README.md)                                  | [SOLUTION](../tasks/cks/labs/05/SOLUTION.MD) |
+| **07** | [Open Policy Agent - Blacklist Images](../tasks/cks/labs/07/README.md)           | [SOLUTION](../tasks/cks/labs/07/SOLUTION.MD) |
+| **09** | [AppArmor](../tasks/cks/labs/09/README.md)                                       | [SOLUTION](../tasks/cks/labs/09/SOLUTION.MD) |
+| **10** | [Container Runtime Sandbox gVisor](../tasks/cks/labs/10/README.md)               | [SOLUTION](../tasks/cks/labs/10/SOLUTION.MD) |
+| **11** | [Read Secret content from ETCD](../tasks/cks/labs/11/README.md)                  | [SOLUTION](../tasks/cks/labs/11/SOLUTION.MD) |
+| **17** | [Enable audit log](../tasks/cks/labs/17/README.md)                               | [SOLUTION](../tasks/cks/labs/17/SOLUTION.MD) |
+| **19** | [Fix Dockerfile](../tasks/cks/labs/19/README.md)                                 | [SOLUTION](../tasks/cks/labs/19/SOLUTION.MD) |
+| **20** | [Update Kubernetes cluster](../tasks/cks/labs/20/README.md)                      | [SOLUTION](../tasks/cks/labs/20/SOLUTION.MD) |
+| **21** | [Image Vulnerability Scanning](../tasks/cks/labs/21/README.md)                   | [SOLUTION](../tasks/cks/labs/21/SOLUTION.MD) |
+| **22** | [Network policy](../tasks/cks/labs/22/README.md)                                 | [SOLUTION](../tasks/cks/labs/22/SOLUTION.MD) |
+| **23** | [Set TLS version and ciphers for etcd, kube-api](../tasks/cks/labs/23/README.md) | [SOLUTION](../tasks/cks/labs/23/SOLUTION.MD) |
+| **24** | [Encrypt secrets in ETCD](../tasks/cks/labs/24/README.md)                        | [SOLUTION](../tasks/cks/labs/24/SOLUTION.MD) |
+| **25** | [Image policy webhook](../tasks/cks/labs/25/README.md)                           | [SOLUTION](../tasks/cks/labs/25/SOLUTION.MD) |
 
 ## CKA Labs
 
