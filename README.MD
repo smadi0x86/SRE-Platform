@@ -67,4 +67,4 @@ For the original repository's license, refer to the [LICENSE](https://github.com
 
 If you encounter any issues or have questions about the project, you can reach out via email to the original owner of this project: [viktoruj@gmail.com](mailto:viktoruj@gmail.com).
 
-For contacting me (the fork owner), please use the email address: [smadixd@gmail.com](mailto:smadixd@gmail.com) or [LinkedIn](https://www.linkedin.com/in/saud-smadi/).
+For contacting me (the fork owner), please use the email address: [smadixd@gmail.com](mailto:smadixd@gmail.com) or you can reach out to me on [LinkedIn](https://www.linkedin.com/in/saud-smadi).
