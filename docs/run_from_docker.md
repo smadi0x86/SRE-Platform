@@ -19,7 +19,7 @@ cd Certified-K8s-Labs
 
 By now, you should have created an S3 bucket for the Terraform backend. If you haven't, please refer to the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html) to create one.
 
-> [WARNING]
+> [!Warning]
 > Make sure to enable bucket versioning when creating the S3 bucket.
 
 ## Edit the terragrunt.hcl file to update your S3 bucket name

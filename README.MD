@@ -1,11 +1,13 @@
 # SRE Learning Platform
 
-The **SRE Learning Platform** is an open-source project designed to help IT engineers prepare for the **CKA (Certified Kubernetes Administrator)**, **CKS (Certified Kubernetes Security Specialist)**, **CKAD (Certified Kubernetes Application Developer)**, and **LFCS (Linux Foundation Certified System Administrator)** exams. This platform provides hands-on labs, practice tests, and expert guidance to ensure certification success.
+The **SRE Learning Platform** is an open-source project designed to help IT engineers prepare for the **CKA (Certified Kubernetes Administrator)**, **CKS (Certified Kubernetes Security Specialist)**, **CKAD (Certified Kubernetes Application Developer)**, and **LFCS (Linux Foundation Certified System Administrator)** exams.
 
-> [IMPORTANT]
-> Also, the platform can be used for educational purposes, workshops, and training sessions. It is a great tool for learning EKS and prepare for HR interviews.
+This platform provides hands-on labs, practice tests, and expert guidance to ensure certification success.
 
-This repository is a fork of [ViktorUJ/cks](https://github.com/ViktorUJ/cks) and has been adjusted based on specific needs. For all details, refer to the original repository.
+Also, the platform can be used for educational purposes, workshops, and training sessions. It is a great tool for learning EKS and prepare for HR interviews.
+
+> [!Important]
+> This repository is a fork of [ViktorUJ/cks](https://github.com/ViktorUJ/cks) and has been adjusted based on specific needs. For all details, refer to the original repository.
 
 ## Quick Start
 
