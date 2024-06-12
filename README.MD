@@ -55,14 +55,16 @@ For more detailed information on using the platform, refer to the following docu
 - [Run from Docker](docs/run_from_docker.md)
 - [Tips and Tricks](docs/tips_and_tricks.md)
 
-## License and Usage Agreement
-
-- [Apache License 2.0](LICENSE)
-
 ## Contribution
 
 If you want to contribute, please refer to the [original repository](https://github.com/ViktorUJ/cks).
 
-## Contacts
+## License
 
-If you encounter any issues or have questions about the project, you can reach out via email: [viktoruj@gmail.com](mailto:viktoruj@gmail.com).
+For the original repository's license, refer to the [LICENSE](https://github.com/ViktorUJ/cks/blob/master/LICENSE) file.
+
+## Contact
+
+If you encounter any issues or have questions about the project, you can reach out via email to the original owner of this project: [viktoruj@gmail.com](mailto:viktoruj@gmail.com).
+
+For contacting me (the fork owner), please use the email address: [smadixd@gmail.com](mailto:smadixd@gmail.com) or [LinkedIn](https://www.linkedin.com/in/saud-smadi/).
