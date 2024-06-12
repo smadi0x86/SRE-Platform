@@ -19,7 +19,7 @@ Error: S3 policy action (s3:GetBucketPolicy) is not allowed
 - Navigate to the [S3 service](https://s3.console.aws.amazon.com/s3/).
 - Select the bucket that you created for the backend.
 - Click on the **Permissions** tab.
-- Uncheck the **Block all public access** option.
+- Uncheck the **Block all public access** option (This is not the best solution, it has security risks so proceed carefully!).
 - Click on the **Bucket Policy** button.
 - Add the following policy to the bucket policy editor:
 
