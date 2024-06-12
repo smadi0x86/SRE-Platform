@@ -1,13 +1,13 @@
 # Why is it Needed?
 
-Creating independent environments is essential for:
+### Creating independent environments is essential for:
 
 - **Multiple Identical Environments**: Perfect for groups of students working in parallel.
 - **Diverse Task Environments**: Allows one student to work on different tasks in separate environments.
 
 To set up an independent environment, define the `USER_ID` and `ENV_ID` variables before running the make command.
 
-Example Usage:
+### Example Usage:
 
 - Create an Environment: `USER_ID='myuser' ENV_ID='3' TASK=01 make run_ckad_mock`
 
