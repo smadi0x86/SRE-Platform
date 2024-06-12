@@ -1,5 +1,5 @@
 locals {
-  questions_list="https://github.com/ViktorUJ/cks/blob/master/tasks/cka/mock/02/README.MD"
+  questions_list="https://github.com/ViktorUJ/cks/blob/master/tasks/cka/mock/02/README.md"
   solutions_scripts="https://github.com/ViktorUJ/cks/tree/master/tasks/cka/mock/02/worker/files/solutions"
   solutions_video="https://youtu.be/ia6Vw_BR-L0"
   region = "eu-north-1"

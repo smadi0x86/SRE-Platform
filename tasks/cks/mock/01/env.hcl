@@ -1,5 +1,5 @@
 locals {
-  questions_list = "https://github.com/ViktorUJ/cks/blob/master/tasks/cks/mock/01/README.MD"
+  questions_list = "https://github.com/ViktorUJ/cks/blob/master/tasks/cks/mock/01/README.md"
   solutions_scripts="https://github.com/ViktorUJ/cks/tree/master/tasks/cks/mock/01/worker/files/solutions"
   solutions_video="https://youtu.be/I8CPwcGbrG8"
   debug_output   = "true"
