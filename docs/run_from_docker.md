@@ -11,8 +11,8 @@ sudo docker run -it viktoruj/runner
 # Clone the Git Repository
 
 ```
-git clone https://github.com/smadi0x86/Certified-K8s-Labs/
-cd Certified-K8s-Labs
+git clone https://github.com/smadi0x86/SRE-Platform
+cd SRE-Platform
 ```
 
 # Update S3 Bucket
