@@ -17,6 +17,12 @@ cd Certified-K8s-Labs
 
 # Update S3 Bucket
 
+By now, you should have created an S3 bucket for the Terraform backend. If you haven't, please refer to the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html) to create one.
+
+```
+Note: Make sure when creating the bucket to enable versioning.
+```
+
 ## Edit the terragrunt.hcl file to update your S3 bucket name
 
 ```bash
@@ -27,7 +33,7 @@ vim terraform/environments/terragrunt.hcl
 locals {
 region = "eu-north-1"
 backend_region = "eu-north-1"
-backend_bucket = "sre-learning-platform-state-backet" # update to your own name
+backend_bucket = "sre-learning-platform-state-backet" # update to your own bucket name
 backend_dynamodb_table = "${local.backend_bucket}-lock"
 }
 ```
