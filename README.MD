@@ -6,8 +6,6 @@ Also, the platform can be used for educational purposes, workshops, and training
 
 This repository is a fork of [ViktorUJ/cks](https://github.com/ViktorUJ/cks) and has been adjusted based on specific needs. For all details, refer to the original repository.
 
----
-
 ## Quick Start
 
 To quickly get started with the SRE Learning Platform, follow these steps:
@@ -19,8 +17,6 @@ To quickly get started with the SRE Learning Platform, follow these steps:
 5. [Check Tips and Tricks](docs/tips_and_tricks.md)
 
 For a visual guide, watch the [video instructions](https://youtu.be/Xh6sWzafBmw).
-
----
 
 ## Requirements
 
@@ -34,27 +30,17 @@ Before you begin, ensure you have the following installed:
 - [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-version.html) > 2.2.30
 - [AWS profile](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
 
----
-
 ## Configuration
 
 To configure the platform, modify the **backend_bucket** (and optionally **region** and **backend_region**) in [terraform/environments/terragrunt.hcl](terraform/environments/terragrunt.hcl#L4).
-
----
-
----
 
 ## Common Issues
 
 If you encounter any issues while using the platform, refer to the [Common Issues](docs/common_issues.md) document for troubleshooting steps.
 
----
-
 ## Commands
 
 Run all commands from the project's root directory. For detailed command instructions and usage scenarios, refer to the original repository's [README](https://github.com/ViktorUJ/cks).
-
----
 
 ## Documentation
 
@@ -66,19 +52,13 @@ For more detailed information on using the platform, refer to the following docu
 - [Run from Docker](docs/run_from_docker.md)
 - [Tips and Tricks](docs/tips_and_tricks.md)
 
----
-
 ## License and Usage Agreement
 
 - [Apache License 2.0](LICENSE)
 
----
-
 ## Contribution
 
 If you want to contribute, please refer to the [original repository](https://github.com/ViktorUJ/cks).
-
----
 
 ## Contacts
 
