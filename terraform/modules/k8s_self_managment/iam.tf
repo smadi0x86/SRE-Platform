@@ -2,16 +2,17 @@ resource "aws_iam_role" "server" {
   name               = "${local.prefix}-${var.app_name}"
   assume_role_policy = <<EOF
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Principal": {
-                "Service": "spotfleet.amazonaws.com"
-            },
-            "Action": "sts:AssumeRole"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": "sts:AssumeRole",
+      "Principal": {
+        "Service": "ec2.amazonaws.com"
+      },
+      "Effect": "Allow",
+      "Sid": ""
+    }
+  ]
 }
 EOF
   tags               = local.tags_all
@@ -25,81 +26,40 @@ resource "aws_iam_policy" "server" {
     "Version": "2012-10-17",
     "Statement": [
         {
+            "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": [
-                "ec2:DescribeImages",
+                "ec2:DescribeAddresses",
+                "ec2:DescribeInstances",
+                "cloudwatch:PutMetricData",
+                "ec2:DescribeTags",
+                "ec2:DescribeRegions",
+                "ec2:DescribeHosts",
+                "cloudwatch:PutMetricStream",
+                "ec2:DescribeVolumeStatus",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DescribeVpcs",
+                "ec2:DescribeVolumes",
                 "ec2:DescribeSubnets",
-                "ec2:RequestSpotInstances",
-                "ec2:DescribeInstanceStatus",
-                "ec2:RunInstances"
+                "ec2:DescribeInstanceStatus"
             ],
-            "Resource": [
-                "*"
-            ]
+            "Resource": "*"
         },
         {
             "Effect": "Allow",
             "Action": [
-                "iam:PassRole"
+                "s3:*"
             ],
             "Resource": [
-                "*"
-            ],
-            "Condition": {
-                "StringEquals": {
-                    "iam:PassedToService": [
-                        "ec2.amazonaws.com",
-                        "ec2.amazonaws.com.cn"
-                    ]
-                }
-            }
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "ec2:CreateTags"
-            ],
-            "Resource": [
-                "arn:aws:ec2:*:*:instance/*",
-                "arn:aws:ec2:*:*:spot-instances-request/*",
-                "arn:aws:ec2:*:*:spot-fleet-request/*",
-                "arn:aws:ec2:*:*:volume/*"
-            ]
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "ec2:TerminateInstances"
-            ],
-            "Resource": "*",
-            "Condition": {
-                "StringLike": {
-                    "ec2:ResourceTag/aws:ec2spot:fleet-request-id": "*"
-                }
-            }
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "elasticloadbalancing:RegisterInstancesWithLoadBalancer"
-            ],
-            "Resource": [
-                "arn:aws:elasticloadbalancing:*:*:loadbalancer/*"
-            ]
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "elasticloadbalancing:RegisterTargets"
-            ],
-            "Resource": [
-                "arn:aws:elasticloadbalancing:*:*:*/*"
+                "arn:aws:s3:::${var.s3_k8s_config}/*",
+                "arn:aws:s3:::${var.s3_k8s_config}"
             ]
         }
     ]
 }
 EOF
 }
+
 
 resource "aws_iam_policy_attachment" "server" {
   name       = "${local.prefix}-${var.app_name}"

@@ -66,7 +66,7 @@ resource "aws_launch_template" "worker" {
 
 resource "aws_spot_fleet_request" "worker" {
   for_each                      = local.k8s_worker_spot
-  iam_fleet_role                = aws_iam_role.fleet_role["enable"].arn # Replace with your IAM Role Arn
+  iam_fleet_role                = "arn:aws:iam::735341528488:role/aws-service-role/spotfleet.amazonaws.com/AWSServiceRoleForEC2SpotFleet" # Replace with your IAM Role Arn
   target_capacity               = 1
   wait_for_fulfillment          = true
   terminate_instances_on_delete = true
