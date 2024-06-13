@@ -9,15 +9,25 @@ account_id = "735341528488"
 # List of policies to delete
 policy_names = [
     "defaultUser_defaultId_cluster1-k8s",
-    "defaultUser_defaultId_cluster2-k8s",
-    "defaultUser_defaultId_cluster3-k8s",
-    "defaultUser_defaultId_cluster4-k8s",
-    "defaultUser_defaultId_cluster5-k8s",
-    "defaultUser_defaultId_cluster6-k8s",
-    "defaultUser_defaultId_cluster7-k8s",
-    "defaultUser_defaultId_cluster8-k8s",
-    "defaultUser_defaultId_cluster9-k8s",
+    "defaultUser_defaultId_cluster1-k8s-k8s1",
     "defaultUser_defaultId_cluster10-k8s",
+    "defaultUser_defaultId_cluster10-k8s-k8s10",
+    "defaultUser_defaultId_cluster2-k8s",
+    "defaultUser_defaultId_cluster2-k8s-k8s2",
+    "defaultUser_defaultId_cluster3-k8s",
+    "defaultUser_defaultId_cluster3-k8s-k8s3",
+    "defaultUser_defaultId_cluster4-k8s",
+    "defaultUser_defaultId_cluster4-k8s-k8s4",
+    "defaultUser_defaultId_cluster5-k8s",
+    "defaultUser_defaultId_cluster5-k8s-k8s5",
+    "defaultUser_defaultId_cluster6-k8s",
+    "defaultUser_defaultId_cluster6-k8s-k8s6",
+    "defaultUser_defaultId_cluster7-k8s",
+    "defaultUser_defaultId_cluster7-k8s-k8s7",
+    "defaultUser_defaultId_cluster8-k8s",
+    "defaultUser_defaultId_cluster8-k8s-k8s8",
+    "defaultUser_defaultId_cluster9-k8s",
+    "defaultUser_defaultId_cluster9-k8s-k8s9",
 ]
 
 # Iterate over the list of policy names and delete each one
