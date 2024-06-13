@@ -19,7 +19,7 @@ locals {
     "owner"           = "viktoruj@gmail.com"
   }
   k8_version           = "1.30.0"
-  node_type            = "ondemand" # spot | ondemand
+  node_type            = "spot" # spot | ondemand
   runtime              = "containerd" # docker  , cri-o  , containerd ( need test it )
   instance_type        = "t4g.medium"
   instance_type_worker = "t4g.small"
