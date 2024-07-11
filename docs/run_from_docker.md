@@ -32,7 +32,7 @@ vim terraform/environments/terragrunt.hcl
 locals {
 region = "eu-north-1"
 backend_region = "eu-north-1"
-backend_bucket = "sre-learning-platform-state-backet" # update to your own bucket name
+backend_bucket = "example-bucket" # update with your own bucket name
 backend_dynamodb_table = "${local.backend_bucket}-lock"
 }
 ```
@@ -40,8 +40,8 @@ backend_dynamodb_table = "${local.backend_bucket}-lock"
 # Set the AWS Key
 
 ```bash
-export AWS_ACCESS_KEY_ID=Your_Access_Key
-export AWS_SECRET_ACCESS_KEY=Your_Secred_Access_Key
+export AWS_ACCESS_KEY_ID=<Your-Access-Key>
+export AWS_SECRET_ACCESS_KEY=<Your-Secret-Access-Key>
 ```
 
 # Run Your Scenario
