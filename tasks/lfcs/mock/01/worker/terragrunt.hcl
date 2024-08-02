@@ -7,7 +7,7 @@ locals {
 }
 
 terraform {
-  source = "../../..//modules/work_pc/"
+  source = "../../../modules/work_pc/"
 
   extra_arguments "retry_lock" {
     commands  = get_terraform_commands_that_need_locking()
@@ -55,8 +55,8 @@ inputs = {
       kubectl_version = local.vars.locals.k8_version
     }
     exam_time_minutes = "120"
-    test_url          = "https://raw.githubusercontent.com/ViktorUJ/cks/master/tasks/lfcs/mock/01/worker/files/tests.bats"
-    task_script_url   = "https://raw.githubusercontent.com/ViktorUJ/cks/master/tasks/lfcs/mock/01/worker/files/worker.sh"
+    test_url          = "https://raw.githubusercontent.com/smadi0x86/SRE-Platform/master/tasks/lfcs/mock/01/worker/files/tests.bats"
+    task_script_url   = "https://raw.githubusercontent.com/smadi0x86/SRE-Platform/master/tasks/lfcs/mock/01/worker/files/worker.sh"
     ssh = {
       private_key = dependency.ssh-keys.outputs.private_key
       pub_key     = dependency.ssh-keys.outputs.pub_key
