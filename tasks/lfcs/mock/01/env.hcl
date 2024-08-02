@@ -19,7 +19,7 @@ locals {
   runtime              = "containerd" # docker  , cri-o  , containerd ( need test it )
   instance_type        = "t4g.medium" #  t3.medium  - x86     t4g.medium - arm
   instance_type_worker = "t4g.small"
-  key_name             = ""
+  key_name             = "lfcs-mock"
   ubuntu_version       = "20.04"
   ami_id               = ""
   root_volume = {
