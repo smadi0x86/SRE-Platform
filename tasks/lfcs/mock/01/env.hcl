@@ -16,11 +16,10 @@ locals {
   }
   k8_version           = "1.28.0"
   node_type            = "spot"
-  runtime              = "containerd" # docker  , cri-o  , containerd ( need test it )
-  instance_type        = "t4g.medium" #  t3.medium  - x86     t4g.medium - arm
+  runtime              = "containerd" # docker, cri-o, containerd (TODO: Testing is needed)
+  instance_type        = "t4g.medium" #  t3.medium-x86     t4g.medium-arm
   instance_type_worker = "t4g.small"
-  key_name             = ""
-  ssh_password_enable  = "true" # false |  true
+  key_name             = "LFCS" # SSH password login not working, this is a workaround for now
   ubuntu_version       = "20.04"
   ami_id               = ""
   root_volume = {
